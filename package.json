@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "engines": {
-    "node": "v14.17.2"
+    "node": "14.x"
   },
   "scripts": {
-    "start":"node server/index.js",
+    "start": "node server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/NBreedlove/MEFANAPP/issues"
   },
-  "homepage": "https://github.com/NBreedlove/MEFANAPP#readme"
+  "homepage": "https://github.com/NBreedlove/MEFANAPP#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
